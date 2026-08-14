@@ -44,6 +44,15 @@ let integrated = sc.integrate_data(anchors)
 
 ## Build and verify
 
+Install directly from the public source repository:
+
+```text
+cargo install --git https://github.com/oriclabs/seurat-compat-provider --locked
+bl-seurat-provider doctor
+```
+
+Or build a checkout locally:
+
 ```text
 cargo build --release
 target/release/bl-seurat-provider doctor
